@@ -40,7 +40,9 @@ const LoginPage = () => {
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="form-control">
               <label className="label">
-                <span className="label-text font-medium">Email or Username</span>
+                <span className="label-text font-medium">
+                  Email or Username
+                </span>
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
